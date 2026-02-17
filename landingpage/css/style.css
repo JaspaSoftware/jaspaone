@@ -13,8 +13,9 @@
     /* Very dark blue/black */
     --bg-card: #1e293b;
     /* Slate 800 */
-    --font-heading: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Rubik', sans-serif;
+    --font-body: 'Rubik', sans-serif;
+    --font-accent: 'Yellowtail', cursive;
     --transition: all 0.3s ease;
     --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
 }
@@ -241,6 +242,118 @@ section {
     font-size: 1rem;
     color: var(--text-muted);
     font-weight: 400;
+}
+
+/* WhatsApp Popup */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease;
+}
+
+.popup-overlay.active {
+    display: flex;
+}
+
+.popup-content {
+    background: var(--bg-card);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    animation: slideUp 0.4s ease;
+}
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.popup-close:hover {
+    color: var(--primary-color);
+    transform: rotate(90deg);
+}
+
+.popup-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.popup-header h3 {
+    margin: 15px 0 10px;
+    font-size: 1.75rem;
+}
+
+.popup-header p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.popup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.popup-form input {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.popup-form input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.popup-form button {
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Footer */
