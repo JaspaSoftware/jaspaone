@@ -1,50 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaspa One | Business Management System - Run Your Business on Auto-Pilot</title>
-    <meta name="description"
-        content="Run your SMME on auto-pilot with Jaspa One. Invoicing, CRM, Projects, HR, and more in one platform. Free Forever Trial. Annual pricing only - no monthly costs.">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,500i,700,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href="img/favicon.png" type="image/png">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <img src="img/web-logo.png" alt="Jaspa One Logo">
-                </div>
-                <!-- Mobile Menu Details -->
-                <div class="mobile-menu-btn" id="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#price">PRICE</a></li>
-                    <li><a href="#features">FEATURES</a></li>
-                    <li><a href="#benefits">BENEFITS</a></li>
-                    <li><a href="#contact" class="btn btn-primary">Start Free Forever Trial</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php 
+$pageTitle = "Jaspa One | All-in-One Business Management System";
+$pageDescription = "Run your entire business on auto-pilot. CRM, Invoicing, Projects, HR, and more for just R855/year. Start your Free Forever Trial today.";
+include 'includes/header.php'; 
+?>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -54,8 +12,7 @@
                 owners. Stop juggling multiple tools. Manage invoicing, CRM, projects, staff, and finances in one
                 place—so you can focus on growing your business.</p>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Start Free Forever Trial</a>
-                <a href="#contact" class="btn btn-outline">Request Demo</a>
+                <a href="contact.php" class="btn btn-primary">Start Free Forever Trial</a>
             </div>
         </div>
     </section>
@@ -111,6 +68,48 @@
                     <h3>E-Signatures</h3>
                     <p>Secure e-signature enabled client contracts to speed up agreements.</p>
                 </div>
+
+                <!-- Card 7 -->
+                <div class="feature-card">
+                    <i class="fas fa-tags feature-icon"></i>
+                    <h3>Product Catalog</h3>
+                    <p>Manage your products and services database with pricing, categories, and inventory tracking.</p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="feature-card">
+                    <i class="fas fa-ticket-alt feature-icon"></i>
+                    <h3>Helpdesk & Tickets</h3>
+                    <p>Built-in support ticket system to manage client queries and issues efficiently.</p>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="feature-card">
+                    <i class="fas fa-bell feature-icon"></i>
+                    <h3>Real-Time Alerts</h3>
+                    <p>Stay updated with instant notifications for new leads, payment receipts, and project updates.</p>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="feature-card">
+                    <i class="fas fa-palette feature-icon"></i>
+                    <h3>Custom Themes</h3>
+                    <p>Personalize your workspace with customizable themes and branding options.</p>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="feature-card">
+                    <i class="fas fa-credit-card feature-icon"></i>
+                    <h3>Payment Gateways</h3>
+                    <p>Integrated with major payment gateways for seamless online payments from clients.</p>
+                </div>
+
+                <!-- Card 12 -->
+                <div class="feature-card">
+                    <i class="fas fa-chart-pie feature-icon"></i>
+                    <h3>Advanced Reporting</h3>
+                    <p>Deep insights into your business performance with detailed financial and operational reports.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -124,7 +123,7 @@
             </div>
             <div class="pricing-card">
                 <h3>Free Forever Trial</h3>
-                <div class="price">Then pay annually <span>when you're ready</span></div>
+                <div class="price">R855 <span>/ year</span></div>
                 <p>Try Jaspa One with full access. No credit card required. When you're ready to scale, pay once a
                     year—not every month.</p>
                 <ul style="text-align: left; margin: 30px 0; padding-left: 20px;">
@@ -137,7 +136,7 @@
                     <li style="margin-bottom: 10px"><i class="fas fa-check" style="color: var(--primary-color)"></i>
                         Premium support included</li>
                 </ul>
-                <a href="#contact" class="btn btn-primary">Start Free Forever Trial</a>
+                <a href="contact.php" class="btn btn-primary">Start Free Forever Trial</a>
             </div>
         </div>
     </section>
@@ -199,73 +198,117 @@
             </div>
 
             <div style="text-align: center; margin-top: 50px;">
-                <a href="#contact" class="btn btn-primary">Start Free Forever Trial</a>
+                <a href="contact.php" class="btn btn-primary">Start Free Forever Trial</a>
             </div>
         </div>
     </section>
 
-    <!-- WhatsApp Popup -->
-    <div id="whatsapp-popup" class="popup-overlay">
-        <div class="popup-content">
-            <button class="popup-close" id="popup-close">&times;</button>
-            <div class="popup-header">
-                <i class="fab fa-whatsapp" style="font-size: 48px; color: #25D366;"></i>
-                <h3>Let's Chat About Your Business</h3>
-                <p>Get a personalized demo and see how Jaspa One can transform your operations.</p>
-            </div>
-            <form id="whatsapp-form" class="popup-form">
-                <input type="text" id="user-name" placeholder="Your Name" required>
-                <input type="text" id="business-type" placeholder="Type of Business" required>
-                <input type="tel" id="user-phone" placeholder="WhatsApp Number" required>
-                <button type="submit" class="btn btn-primary">
-                    <i class="fab fa-whatsapp"></i> Connect on WhatsApp
-                </button>
-            </form>
-            <p style="text-align: center; font-size: 0.9rem; color: var(--text-muted); margin-top: 15px;">
-                Or <a href="#contact" id="close-and-trial" style="color: var(--primary-color);">Start Free Trial</a>
-            </p>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer id="contact">
+    <!-- Comparison Section -->
+    <section id="comparison" style="background-color: var(--bg-card);">
         <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <h3 class="logo">Jaspa One.</h3>
-                    <p style="color: var(--text-muted)">The Business Management System that runs on auto-pilot. Built
-                        for SMMEs and entrepreneurs.</p>
-                </div>
-                <div>
-                    <h4>Product</h4>
-                    <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#value">Pricing</a></li>
-                        <li><a href="/login">Login</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> support@jaspaone.com</li>
-                    </ul>
-                </div>
+            <div class="section-header">
+                <h2>Why Jaspa One is Different</h2>
+                <p>See how we stack up against traditional business management methods.</p>
             </div>
-            <div class="footer-bottom">
-                &copy; <?php echo date("Y"); ?> Jaspa One. All Rights Reserved.
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th class="highlight">Jaspa One</th>
+                            <th>Traditional / Others</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cost Model</td>
+                            <td class="highlight"><strong>One Annual Fee (R855/yr)</strong></td>
+                            <td>Monthly Subscriptions (R5000+/yr)</td>
+                        </tr>
+                        <tr>
+                            <td>Tools Included</td>
+                            <td class="highlight">All-in-One (CRM, HR, Projects, etc.)</td>
+                            <td>Fragmented (Separate apps)</td>
+                        </tr>
+                        <tr>
+                            <td>User Limit</td>
+                            <td class="highlight">Unlimited Growth</td>
+                            <td>Per User Fee</td>
+                        </tr>
+                        <tr>
+                            <td>Setup Time</td>
+                            <td class="highlight">Instant Access</td>
+                            <td>Weeks/Months</td>
+                        </tr>
+                         <tr>
+                            <td>Support</td>
+                            <td class="highlight">Premium Included</td>
+                            <td>Extra Cost</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </footer>
+    </section>
 
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
-</body>
+    <!-- Brief Partners Section -->
+    <section id="partners-summary" style="background-color: var(--bg-card); padding: 80px 0;">
+        <div class="container" style="text-align: center;">
+            <div class="section-header">
+                <h2>Grow With Us</h2>
+                <p>Join our Reseller Program or become a Certified Consultant.</p>
+            </div>
+            <a href="partners.php" class="btn btn-outline">Explore Partner Programs</a>
+        </div>
+    </section>
 
-</html>
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Users Say</h2>
+                <p>Trusted by growing businesses across the country.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Testimonial 1 -->
+                <div class="feature-card testimonial-card">
+                    <p class="quote">"Jaspa One changed how we run our agency. We used to have 5 different subscriptions. Now it's all in one place and we save thousands every year."</p>
+                    <div class="author">
+                        <strong>Sarah M.</strong>
+                        <span>Marketing Director</span>
+                    </div>
+                </div>
+                 <!-- Testimonial 2 -->
+                <div class="feature-card testimonial-card">
+                    <p class="quote">"The project management tools are incredible. I can track my team's time, manage tasks, and invoice clients without switching windows."</p>
+                    <div class="author">
+                        <strong>David K.</strong>
+                        <span>Construction SME</span>
+                    </div>
+                </div>
+                 <!-- Testimonial 3 -->
+                <div class="feature-card testimonial-card">
+                    <p class="quote">"Finally, software that doesn't charge per user! As we hired more staff, our costs stayed the same. Highly recommended for startups."</p>
+                    <div class="author">
+                        <strong>Thabo N.</strong>
+                        <span>Tech Founder</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Brief Blog Section -->
+    <section id="insights-summary" style="padding: 80px 0;">
+        <div class="container" style="text-align: center;">
+            <div class="section-header">
+                <h2>Latest Insights</h2>
+                <p>Tips and strategies for running a better business.</p>
+            </div>
+            <a href="blog.php" class="btn btn-outline">Read Our Blog</a>
+        </div>
+    </section>
+
+
+
+<?php include 'includes/footer.php'; ?>

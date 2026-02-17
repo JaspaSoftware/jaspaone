@@ -1,0 +1,33 @@
+name: Deploy Web App
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'app/**'
+
+jobs:
+  app-deploy:
+    name: Deploy Web App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v4
+
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # Local folder to upload
+          local-dir: ./app/
+          # Remote location (subdirectory /app inside public_html)
+          server-dir: /public_html/app/
+          
+          # Exclude files
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**

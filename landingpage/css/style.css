@@ -93,6 +93,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .nav-links a:hover {
@@ -433,4 +434,129 @@ footer {
     .mobile-menu-btn {
         display: none;
     }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .comparison-table-wrapper {
+        overflow-x: scroll;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form-container {
+        min-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Scroll Animations */
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Comparison Table */
+.comparison-table-wrapper {
+    overflow-x: auto;
+    margin-top: 40px;
+}
+
+/* ... rest of existing styles ... */
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.comparison-table th {
+    background-color: rgba(2, 6, 23, 0.8);
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.comparison-table td {
+    color: var(--text-muted);
+}
+
+.comparison-table .highlight {
+    background-color: rgba(34, 109, 180, 0.1);
+    color: var(--primary-color);
+    font-weight: 600;
+    border-left: 1px solid var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+}
+
+.comparison-table th.highlight {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Testimonials */
+.testimonial-card {
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.author strong {
+    display: block;
+    color: var(--primary-color);
+}
+
+.author span {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* FAQ */
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.02);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.faq-item h4 {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.faq-item p {
+    color: var(--text-muted);
 }
