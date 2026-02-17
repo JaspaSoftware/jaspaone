@@ -24,7 +24,7 @@ jobs:
           # Local folder to upload
           local-dir: ./landingpage/
           # Remote location (Root of public_html for the main website)
-          server-dir: /public_html/
+          server-dir: /
           
           # Exclude files
           exclude: |
