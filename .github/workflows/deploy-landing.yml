@@ -23,8 +23,8 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           # Local folder to upload
           local-dir: ./landingpage/
-          # Remote location (Root of public_html for the main website)
-          server-dir: /
+          # Remote location (Root of the FTP account)
+          server-dir: ./
           
           # Exclude files
           exclude: |

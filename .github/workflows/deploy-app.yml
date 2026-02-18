@@ -24,7 +24,7 @@ jobs:
       - name: Install Composer Dependencies
         run: |
           cd app
-          composer install --no-dev --optimize-autoloader
+          composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -44,7 +44,7 @@ jobs:
           username: ${{ secrets.APP_FTP_USERNAME }}
           password: ${{ secrets.APP_FTP_PASSWORD }}
           local-dir: ./app/
-          server-dir: /
+          server-dir: ./
           exclude: |
             **/.git*
             **/.git*/**
