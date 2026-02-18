@@ -560,3 +560,84 @@ footer {
 .faq-item p {
     color: var(--text-muted);
 }
+
+/* Pricing Comparison Table */
+.pricing-comparison-table-wrapper {
+    overflow-x: auto;
+    margin-top: 50px;
+    background: var(--bg-card);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: var(--shadow);
+}
+
+.pricing-comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.pricing-comparison-table th,
+.pricing-comparison-table td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pricing-comparison-table th {
+    background-color: rgba(2, 6, 23, 0.8);
+    font-size: 1.1rem;
+    color: var(--accent-color);
+}
+
+.pricing-comparison-table td:first-child,
+.pricing-comparison-table th:first-child {
+    text-align: left;
+    width: 250px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.pricing-comparison-table .plan-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.pricing-comparison-table .plan-price {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.pricing-comparison-table tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.pricing-comparison-table .fa-check {
+    color: #10b981;
+}
+
+.pricing-comparison-table .fa-times {
+    color: #ef4444;
+}
+
+.pricing-comparison-table .highlight {
+    background-color: rgba(34, 109, 180, 0.1);
+    border-left: 1px solid var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+}
+
+.pricing-comparison-table th.highlight {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.pricing-comparison-table .plan-subtitle {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    margin-top: 5px;
+}

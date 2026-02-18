@@ -102,6 +102,7 @@
                     <li><a href="partners.php">PARTNERS</a></li>
                     <li><a href="blog.php">BLOG</a></li>
                     <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="https://one.jaspaone.app" style="margin-right: 15px; font-weight: 500;">LOGIN</a></li>
                     <li><a href="contact.php" class="btn btn-primary">Start Free Trial</a></li>
                 </ul>
             </nav>

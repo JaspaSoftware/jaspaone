@@ -1,47 +1,51 @@
 <?php 
-$pageTitle = "Partner & Reseller Program | Jaspa One";
-$pageDescription = "Earn recurring revenue by becoming a Jaspa One partner. Reseller programs, certified consultants, and white-label solutions for South African agencies.";
+$pageTitle = "Jaspa One | Partners & Resellers";
+$pageDescription = "Join the Jaspa One partner network. Become a reseller or certified consultant and help businesses automate their operations.";
 include 'includes/header.php'; 
 ?>
 
-<section class="hero" style="min-height: 50vh; height: auto; padding-top: 120px; padding-bottom: 60px;">
-    <div class="container hero-content">
-        <h1>Partners & Resellers</h1>
-        <p>Join the Jaspa One ecosystem. Help businesses grow while building your own revenue stream.</p>
-    </div>
-</section>
+    <section style="padding: 120px 0 60px;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Partner With Jaspa One</h1>
+                <p>Help South African SMMEs grow while building your own revenue stream.</p>
+            </div>
 
-<section id="partners-content" style="background-color: var(--bg-card); padding: 80px 0;">
-    <div class="container">
-        <div class="features-grid">
-            <div class="feature-card" style="text-align: center;">
-                <i class="fas fa-handshake feature-icon"></i>
-                <h3>Reseller Program</h3>
-                <p>Earn up to 30% recurring revenue for every client you bring to Jaspa One. We provide the platform, you own the relationship.</p>
-                <a href="index.php#contact" class="btn btn-outline" style="margin-top: 20px;">Join Program</a>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-handshake feature-icon"></i>
+                    <h3>Reseller Program</h3>
+                    <p>Earn generous commissions by introducing Jaspa One to your network. We provide all the marketing collateral and sales support you need to succeed.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-certificate feature-icon"></i>
+                    <h3>Certified Consultant</h3>
+                    <p>Help businesses implement and optimize Jaspa One. Ideal for business coaches, accountants, and IT professionals who want to offer automation services.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-code feature-icon"></i>
+                    <h3>Integration Partner</h3>
+                    <p>Build custom integrations and tools on top of the Jaspa One ecosystem. Access our API and developer community to expand your service offering.</p>
+                </div>
             </div>
-            <div class="feature-card" style="text-align: center;">
-                <i class="fas fa-certificate feature-icon"></i>
-                <h3>Certified Consultant</h3>
-                <p>Become an implementation expert. Help businesses set up workflows, train staff, and optimize their operations.</p>
-                <a href="index.php#contact" class="btn btn-outline" style="margin-top: 20px;">Get Certified</a>
-            </div>
-            <div class="feature-card" style="text-align: center;">
-                <i class="fas fa-layer-group feature-icon"></i>
-                <h3>White Label & API</h3>
-                <p>For large agencies and enterprises. Integrate Jaspa One into your existing ecosystem with our robust API.</p>
-                <a href="index.php#contact" class="btn btn-outline" style="margin-top: 20px;">Contact Sales</a>
+
+            <div style="background: var(--bg-card); padding: 50px; border-radius: 20px; margin-top: 60px; border: 1px solid var(--primary-color);">
+                <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h2>Why Partner with Us?</h2>
+                    <ul style="text-align: left; margin: 30px auto; display: inline-block;">
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 10px;"></i> Recurring commission on annual renewals.</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 10px;"></i> Full training and certification provided.</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 10px;"></i> Priority support for your clients.</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 10px;"></i> Exclusive access to early features.</li>
+                    </ul>
+                    <div style="margin-top: 30px;">
+                        <a href="contact.php" class="btn btn-primary">Apply to Become a Partner</a>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <div style="margin-top: 80px; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
-            <h3>Why Partner with Us?</h3>
-            <p style="color: var(--text-muted); margin-top: 20px;">Jaspa One is the fastest-growing SMME management platform in South Africa. We're looking for ambitious partners who understand the local market.</p>
-            <div style="margin-top: 40px; text-align: center;">
-                 <a href="index.php#contact" class="btn btn-primary">Apply Now</a>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 <?php include 'includes/footer.php'; ?>

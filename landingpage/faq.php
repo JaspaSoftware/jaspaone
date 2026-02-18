@@ -1,79 +1,54 @@
 <?php 
-$pageTitle = "Frequently Asked Questions | Jaspa One";
-$pageDescription = "Get answers about Jaspa One pricing, features, security, and the free forever trial. Find out why we are the best choice for SMMEs.";
+$pageTitle = "Jaspa One | Frequently Asked Questions";
+$pageDescription = "Answers to common questions about Jaspa One features, pricing, and how it can help your business.";
 include 'includes/header.php'; 
 ?>
-<!-- specific FAQ schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "Is there really no monthly fee?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes! We believe in helping businesses manage cash flow. You pay one flat fee of R855 per year. No monthly debit orders."
-    }
-  }, {
-    "@type": "Question",
-    "name": "Can I cancel my trial?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Absolutely. The Free Forever trial has no time limit on basic features. You only upgrade when you want the full premium experience."
-    }
-  }, {
-    "@type": "Question",
-    "name": "Is my data secure?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We use bank-level encryption and secure servers to ensure your business data is always safe and backed up."
-    }
-  }]
-}
-</script>
 
-<section class="hero" style="min-height: 50vh; height: auto; padding-top: 120px; padding-bottom: 60px;">
-    <div class="container hero-content">
-        <h1>Frequently Asked Questions</h1>
-        <p>Everything you need to know about Jaspa One.</p>
-    </div>
-</section>
+    <section style="padding: 120px 0 60px;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Frequently Asked Questions</h1>
+                <p>Everything you need to know about Jaspa One and how it helps SMMEs grow.</p>
+            </div>
 
-<section id="faq-content" style="padding: 80px 0;">
-    <div class="container">
-        <div class="faq-grid">
-            <div class="faq-item">
-                <h4>Is there really no monthly fee?</h4>
-                <p>Yes! We believe in helping businesses manage cash flow. You pay one flat fee of R855 per year. No monthly debit orders.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Can I cancel my trial?</h4>
-                <p>Absolutely. The Free Forever trial has no time limit on basic features. You only upgrade when you want the full premium experience.</p>
-            </div>
+            <div class="faq-grid">
                 <div class="faq-item">
-                <h4>Is my data secure?</h4>
-                <p>We use bank-level encryption and secure servers to ensure your business data is always safe and backed up.</p>
-            </div>
+                    <h4>What is Jaspa One?</h4>
+                    <p>Jaspa One is an all-in-one Business Management System designed specifically for SMMEs. it combines CRM, HR, Project Management, and Finance into one seamless platform.</p>
+                </div>
+
                 <div class="faq-item">
-                <h4>Do you offer support?</h4>
-                <p>Yes, all users get access to our support team via email and the internal ticketing system.</p>
+                    <h4>Can I see a demo?</h4>
+                    <p>Yes! We'd love to show you around. You can start a **Free Forever Trial** instantly, which gives you access to the core features. For a personalized guided tour, please contact us on WhatsApp using the button in the corner.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>How much does it cost?</h4>
+                    <p>We believe in simple pricing. Our **SMME Plan** is just **R855 per year**. No monthly debit orders, no per-user fees, and no hidden surprises. We also offer a Free Entrepreneur plan for very small teams.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Do you charge per user?</h4>
+                    <p>No! Our pricing is based on active employee limits per plan, but we don't charge you for every single user you add. This makes it perfect for businesses that are scaling.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Is my data secure?</h4>
+                    <p>Absolutely. Your business data is encrypted and hosted on secure infrastructure. We also provide role-based access control, so you decide exactly who sees what in your organization.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Can I cancel my subscription?</h4>
+                    <p>Yes, you can cancel your trial or annual subscription at any time. There are no long-term contracts outside of your current billing period.</p>
+                </div>
             </div>
-            <div class="faq-item">
-                <h4>Can I import my data?</h4>
-                <p>Yes, we support data import from most common formats (CSV, Excel) to get you started quickly.</p>
-            </div>
-            <div class="faq-item">
-                <h4>Is there a mobile app?</h4>
-                <p>Jaspa One is a Progressive Web App (PWA), meaning it works perfectly on all mobile devices without needing a store download.</p>
+
+            <div style="text-align: center; margin-top: 60px;">
+                <h3>Still have questions?</h3>
+                <p style="margin-bottom: 20px;">We're here to help you get your business on auto-pilot.</p>
+                <a href="contact.php" class="btn btn-primary">Contact Support</a>
             </div>
         </div>
-        
-        <div style="margin-top: 60px; text-align: center;">
-            <p>Still have questions?</p>
-            <a href="index.php#contact" class="btn btn-primary" style="margin-top: 20px;">Contact Support</a>
-        </div>
-    </div>
-</section>
+    </section>
 
 <?php include 'includes/footer.php'; ?>

@@ -9,25 +9,48 @@ on:
 
 jobs:
   app-deploy:
-    name: Deploy Web App
+    name: Build & Deploy Web App
     runs-on: ubuntu-latest
     steps:
       - name: Get latest code
         uses: actions/checkout@v4
 
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: mbstring, xml, bcmath, mysql, gd, zip
+
+      - name: Install Composer Dependencies
+        run: |
+          cd app
+          composer install --no-dev --optimize-autoloader
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install NPM Dependencies & Build Assets
+        run: |
+          cd app
+          npm install
+          npm run prod
+
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          # Local folder to upload
+          server: ${{ secrets.APP_FTP_SERVER }}
+          username: ${{ secrets.APP_FTP_USERNAME }}
+          password: ${{ secrets.APP_FTP_PASSWORD }}
           local-dir: ./app/
-          # Remote location (subdirectory /app inside public_html)
-          server-dir: /public_html/app/
-          
-          # Exclude files
+          server-dir: /
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
+            **/tests/**
+            **/*.md
+            .env*
+            phpunit.xml
+            docker-compose.yml

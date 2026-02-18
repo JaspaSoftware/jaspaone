@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Jaspa One | All-in-One Business Management System";
-$pageDescription = "Run your entire business on auto-pilot. CRM, Invoicing, Projects, HR, and more for just R855/year. Start your Free Forever Trial today.";
+$pageDescription = "Run your entire business on auto-pilot. CRM, Invoicing, Projects, HR, and more. Start your Free Entrepreneur Plan today.";
 include 'includes/header.php'; 
 ?>
 
@@ -12,7 +12,7 @@ include 'includes/header.php';
                 owners. Stop juggling multiple tools. Manage invoicing, CRM, projects, staff, and finances in one
                 place—so you can focus on growing your business.</p>
             <div class="hero-buttons">
-                <a href="contact.php" class="btn btn-primary">Start Free Forever Trial</a>
+                <a href="contact.php" class="btn btn-primary">Start Free Forever</a>
             </div>
         </div>
     </section>
@@ -118,25 +118,155 @@ include 'includes/header.php';
     <section id="price" style="padding: 100px 0;">
         <div class="container">
             <div class="section-header">
-                <h2>Simple, Transparent Pricing</h2>
-                <p>One annual fee. No hidden costs. No monthly surprises.</p>
+                <h2>Pick Your Plan</h2>
+                <p>Simple, transparent pricing for every stage of your business growth.</p>
             </div>
-            <div class="pricing-card">
-                <h3>Free Forever Trial</h3>
-                <div class="price">R855 <span>/ year</span></div>
-                <p>Try Jaspa One with full access. No credit card required. When you're ready to scale, pay once a
-                    year—not every month.</p>
-                <ul style="text-align: left; margin: 30px 0; padding-left: 20px;">
-                    <li style="margin-bottom: 10px"><i class="fas fa-check" style="color: var(--primary-color)"></i> No
-                        credit card to start</li>
-                    <li style="margin-bottom: 10px"><i class="fas fa-check" style="color: var(--primary-color)"></i>
-                        Cancel anytime during trial</li>
-                    <li style="margin-bottom: 10px"><i class="fas fa-check" style="color: var(--primary-color)"></i>
-                        Annual billing only - better cashflow</li>
-                    <li style="margin-bottom: 10px"><i class="fas fa-check" style="color: var(--primary-color)"></i>
-                        Premium support included</li>
-                </ul>
-                <a href="contact.php" class="btn btn-primary">Start Free Forever Trial</a>
+            
+            <div class="pricing-comparison-table-wrapper">
+                <table class="pricing-comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>
+                                <span class="plan-name">Entrepreneur</span>
+                                <span class="plan-price">Free</span>
+                                <span class="plan-subtitle">1 Employee</span>
+                            </th>
+                            <th class="highlight">
+                                <span class="plan-name">SMME</span>
+                                <span class="plan-price">R855</span>
+                                <span class="plan-subtitle">10 Employees</span>
+                            </th>
+                            <th>
+                                <span class="plan-name">Corporate</span>
+                                <span class="plan-price">R1,710</span>
+                                <span class="plan-subtitle">100 Employees</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Max Active Employees</td>
+                            <td>1</td>
+                            <td class="highlight">10</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>File Storage</td>
+                            <td>100 MB</td>
+                            <td class="highlight">1 GB</td>
+                            <td>10 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Clients</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Invoicing & Estimates</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Projects & Tasks</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Attendance & Leaves</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Leads & CRM</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Payment Gateways</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Tickets & Support System</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Events & Notices</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Contracts</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Time Logs</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Product Catalog</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Expenses</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Reports</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Knowledge Base</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Bank Account Tracking</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Internal Messages</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Order Management</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td class="highlight"><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="contact.php" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;">Select</a></td>
+                            <td class="highlight"><a href="contact.php" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Get Started</a></td>
+                            <td><a href="contact.php" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;">Select</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -222,7 +352,7 @@ include 'includes/header.php';
                     <tbody>
                         <tr>
                             <td>Cost Model</td>
-                            <td class="highlight"><strong>One Annual Fee (R855/yr)</strong></td>
+                            <td class="highlight"><strong>R855/yr (SMME Plan)</strong></td>
                             <td>Monthly Subscriptions (R5000+/yr)</td>
                         </tr>
                         <tr>

@@ -1,59 +1,52 @@
 <?php 
-$pageTitle = "Business Insights & Blog | Jaspa One";
-$pageDescription = "Expert advice on scaling your business, managing cash flow, and automating admin tasks. Read our latest insights for South African entrepreneurs.";
+$pageTitle = "Jaspa One | Blog & Business Insights";
+$pageDescription = "Expert tips, strategies, and insights for growing your business with automation and smart management tools.";
 include 'includes/header.php'; 
 ?>
 
-<section class="hero" style="min-height: 50vh; height: auto; padding-top: 120px; padding-bottom: 60px;">
-    <div class="container hero-content">
-        <h1>Business Insights</h1>
-        <p>Practical advice on automation, cash flow, and scaling your SMME.</p>
-    </div>
-</section>
+    <section style="padding: 120px 0 60px;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Business Insights</h1>
+                <p>Strategies to help you scale, automate, and dominate your market.</p>
+            </div>
 
-<section id="blog-content" style="padding: 80px 0;">
-    <div class="container">
-        <div class="features-grid">
-            <!-- Article 1 -->
-            <article class="feature-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
-                <div style="height: 200px; background: linear-gradient(45deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center;">
-                    <i class="fas fa-chart-line" style="font-size: 4rem; color: var(--primary-color); opacity: 0.5;"></i>
+            <div class="features-grid">
+                <!-- Blog 1 -->
+                <div class="feature-card">
+                    <div style="background: var(--bg-dark); height: 200px; border-radius: 10px; margin-bottom: 20px;"></div>
+                    <h3>5 Ways to Automate Your SMME in 2026</h3>
+                    <p>Discover how automation can save you 10+ hours a week on repetitive admin tasks.</p>
+                    <a href="#" style="color: var(--primary-color); font-weight: 600; margin-top: 15px; display: inline-block;">Read More &rarr;</a>
                 </div>
-                <div style="padding: 30px; flex: 1; display: flex; flex-direction: column;">
-                    <span style="color: var(--accent-color); font-size: 0.8rem; text-transform: uppercase; font-weight: 700; margin-bottom: 10px;">Growth Strategy</span>
-                    <h3 style="font-size: 1.25rem; margin-bottom: 15px;">Why Monthly Subscriptions Are Killing Your Cash Flow</h3>
-                    <p style="flex: 1; margin-bottom: 20px;">Discover how switching to annual models can free up capital for inventory and marketing when you need it most.</p>
-                    <a href="#" style="color: var(--primary-color); font-weight: 600;">Read Article <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
 
-            <!-- Article 2 -->
-            <article class="feature-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
-                    <div style="height: 200px; background: linear-gradient(45deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center;">
-                    <i class="fas fa-cogs" style="font-size: 4rem; color: var(--primary-color); opacity: 0.5;"></i>
+                <!-- Blog 2 -->
+                <div class="feature-card">
+                    <div style="background: var(--bg-dark); height: 200px; border-radius: 10px; margin-bottom: 20px;"></div>
+                    <h3>Stop Juggling Apps: The Case for All-in-One</h3>
+                    <p>Why using separate tools for CRM, HR, and Billing is killing your productivity.</p>
+                    <a href="#" style="color: var(--primary-color); font-weight: 600; margin-top: 15px; display: inline-block;">Read More &rarr;</a>
                 </div>
-                <div style="padding: 30px; flex: 1; display: flex; flex-direction: column;">
-                    <span style="color: var(--accent-color); font-size: 0.8rem; text-transform: uppercase; font-weight: 700; margin-bottom: 10px;">Automation</span>
-                    <h3 style="font-size: 1.25rem; margin-bottom: 15px;">5 Tasks You Should Automate Today</h3>
-                    <p style="flex: 1; margin-bottom: 20px;">Stop manually sending invoices and follow-ups. Here are the top 5 admin tasks Jaspa One handles for you.</p>
-                    <a href="#" style="color: var(--primary-color); font-weight: 600;">Read Article <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
 
-            <!-- Article 3 -->
-            <article class="feature-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
-                    <div style="height: 200px; background: linear-gradient(45deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center;">
-                    <i class="fas fa-users" style="font-size: 4rem; color: var(--primary-color); opacity: 0.5;"></i>
+                <!-- Blog 3 -->
+                <div class="feature-card">
+                    <div style="background: var(--bg-dark); height: 200px; border-radius: 10px; margin-bottom: 20px;"></div>
+                    <h3>Improving Cashflow with Annual Billing</h3>
+                    <p>How predictable business expenses can help you plan for long-term growth.</p>
+                    <a href="#" style="color: var(--primary-color); font-weight: 600; margin-top: 15px; display: inline-block;">Read More &rarr;</a>
                 </div>
-                <div style="padding: 30px; flex: 1; display: flex; flex-direction: column;">
-                    <span style="color: var(--accent-color); font-size: 0.8rem; text-transform: uppercase; font-weight: 700; margin-bottom: 10px;">Management</span>
-                    <h3 style="font-size: 1.25rem; margin-bottom: 15px;">Scaling from 5 to 50 Employees</h3>
-                    <p style="flex: 1; margin-bottom: 20px;">How to maintain culture and efficiency as your team grows without changing your software stack.</p>
-                    <a href="#" style="color: var(--primary-color); font-weight: 600;">Read Article <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div style="text-align: center; margin-top: 60px;">
+                <p>Want more business tips? Subscribe to our newsletter.</p>
+                <div style="margin-top: 20px;">
+                    <form style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+                        <input type="email" placeholder="Your Email Address" style="flex: 1; padding: 12px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.1); background: var(--bg-card); color: white;">
+                        <button type="submit" class="btn btn-primary" style="padding: 10px 20px;">Subscribe</button>
+                    </form>
                 </div>
-            </article>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <?php include 'includes/footer.php'; ?>
