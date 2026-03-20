@@ -7,108 +7,42 @@ include 'includes/header.php';
     <!-- Hero Section -->
     <section class="hero">
         <div class="container hero-content">
-            <h1>Run Your Business <br>on Auto-Pilot</h1>
-            <p>Jaspa One is the all-in-one Business Management System built for SMMEs, entrepreneurs, and business
-                owners. Stop juggling multiple tools. Manage invoicing, CRM, projects, staff, and finances in one
-                place—so you can focus on growing your business.</p>
+            <h1>Jaspa One: The Unified <br>Business OS</h1>
+            <p>We replace the frustration of 5 different apps with the precision of 1 unified engine. Whether you are a solo founder or a corporate director, Jaspa One is the professional-grade craft your business deserves.</p>
             <div class="hero-buttons">
-                <a href="contact.php" class="btn btn-primary">Start Free Forever</a>
+                <a href="contact.php" class="btn btn-primary">Start Your Digital Rebirth</a>
             </div>
         </div>
     </section>
 
-    <!-- Key Features -->
-    <section id="features">
+    <!-- Tier Segments -->
+    <section id="features" style="padding-bottom: 0;">
         <div class="container">
             <div class="section-header">
-                <h2>Everything You Need in One Platform</h2>
-                <p>Stop paying for multiple tools. Run your entire business from one powerful system.</p>
+                <small>Tailored for the South African Hustle</small>
+                <h2>Every Stage. One Engine.</h2>
+                <p>From solo founders to corporate enterprises, Jaspa One scales with you.</p>
             </div>
 
+            <!-- Tier 1 -->
             <div class="features-grid">
-                <!-- Card 1 -->
-                <div class="feature-card">
-                    <i class="fas fa-chart-line feature-icon"></i>
-                    <h3>CRM & Pipeline Management</h3>
-                    <p>Track leads, manage your sales pipeline, and convert opportunities into paying clients
-                        effortlessly.</p>
+                <div class="feature-card reveal active">
+                    <i class="fas fa-user feature-icon text-success" style="color: #10b981;"></i>
+                    <h5 class="small text-success">1. THE MICRO TIER (Solo)</h5>
+                    <h3>Professionalize the Hustle</h3>
+                    <p><strong>Financial Professionalism:</strong> Generate VAT-compliant PDF invoices instantly. Build trust and move away from manual spreadsheets.</p>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="feature-card">
-                    <i class="fas fa-project-diagram feature-icon"></i>
-                    <h3>Project Tracking</h3>
-                    <p>Comprehensive project management with Kanban boards, Gantt charts, and progress tracking.</p>
+                <div class="feature-card reveal active">
+                    <i class="fas fa-users feature-icon text-info" style="color: #38bdf8;"></i>
+                    <h5 class="small text-info">2. THE SMALL TIER (Team)</h5>
+                    <h3>Build a Scalable System</h3>
+                    <p><strong>Automated HR & Attendance:</strong> Transition to automated management. Track staff attendance and performance without the paperwork.</p>
                 </div>
-
-                <!-- Card 3 -->
-                <div class="feature-card">
-                    <i class="fas fa-file-invoice-dollar feature-icon"></i>
-                    <h3>Finance & Invoicing</h3>
-                    <p>Create professional invoices, estimates, and convert directly to credit notes.</p>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="feature-card">
-                    <i class="fas fa-user-clock feature-icon"></i>
-                    <h3>HR & Attendance</h3>
-                    <p>Manage employee attendance, leave tracking, and custom roles & permissions.</p>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="feature-card">
-                    <i class="fas fa-comments feature-icon"></i>
-                    <h3>Real-Time Chat</h3>
-                    <p>Internal chat functionality with Slack, Pusher, and One Signal integrations.</p>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="feature-card">
-                    <i class="fas fa-file-signature feature-icon"></i>
-                    <h3>E-Signatures</h3>
-                    <p>Secure e-signature enabled client contracts to speed up agreements.</p>
-                </div>
-
-                <!-- Card 7 -->
-                <div class="feature-card">
-                    <i class="fas fa-tags feature-icon"></i>
-                    <h3>Product Catalog</h3>
-                    <p>Manage your products and services database with pricing, categories, and inventory tracking.</p>
-                </div>
-
-                <!-- Card 8 -->
-                <div class="feature-card">
-                    <i class="fas fa-ticket-alt feature-icon"></i>
-                    <h3>Helpdesk & Tickets</h3>
-                    <p>Built-in support ticket system to manage client queries and issues efficiently.</p>
-                </div>
-
-                <!-- Card 9 -->
-                <div class="feature-card">
-                    <i class="fas fa-bell feature-icon"></i>
-                    <h3>Real-Time Alerts</h3>
-                    <p>Stay updated with instant notifications for new leads, payment receipts, and project updates.</p>
-                </div>
-
-                <!-- Card 10 -->
-                <div class="feature-card">
-                    <i class="fas fa-palette feature-icon"></i>
-                    <h3>Custom Themes</h3>
-                    <p>Personalize your workspace with customizable themes and branding options.</p>
-                </div>
-
-                <!-- Card 11 -->
-                <div class="feature-card">
-                    <i class="fas fa-credit-card feature-icon"></i>
-                    <h3>Payment Gateways</h3>
-                    <p>Integrated with major payment gateways for seamless online payments from clients.</p>
-                </div>
-
-                <!-- Card 12 -->
-                <div class="feature-card">
-                    <i class="fas fa-chart-pie feature-icon"></i>
-                    <h3>Advanced Reporting</h3>
-                    <p>Deep insights into your business performance with detailed financial and operational reports.</p>
+                <div class="feature-card reveal active">
+                    <i class="fas fa-building feature-icon"></i>
+                    <h5 class="small">3. THE ENTERPRISE TIER</h5>
+                    <h3>Total Digital Sovereignty</h3>
+                    <p><strong>Corporate-Grade Security:</strong> Protect your data with advanced modules, REST API access, and detailed audit logs.</p>
                 </div>
             </div>
         </div>
@@ -118,152 +52,68 @@ include 'includes/header.php';
     <section id="price" style="padding: 100px 0;">
         <div class="container">
             <div class="section-header">
-                <h2>Pick Your Plan</h2>
-                <p>Simple, transparent pricing for every stage of your business growth.</p>
+                <h2>Jaspa One: Official 2026 Pricing</h2>
+                <p>Professional-grade craft designed for South African growth.</p>
             </div>
             
             <div class="pricing-comparison-table-wrapper">
                 <table class="pricing-comparison-table">
                     <thead>
                         <tr>
-                            <th>Features</th>
+                            <th>Feature Set</th>
                             <th>
-                                <span class="plan-name">Entrepreneur</span>
-                                <span class="plan-price">Free</span>
-                                <span class="plan-subtitle">1 Employee</span>
+                                <span class="plan-name">The Solo</span>
+                                <span class="plan-price" style="color: #10b981;">R 4,680</span>
+                                <span class="plan-subtitle">1-Man Show / Freelancer</span>
                             </th>
                             <th class="highlight">
-                                <span class="plan-name">SMME</span>
-                                <span class="plan-price">R855</span>
-                                <span class="plan-subtitle">10 Employees</span>
+                                <span class="plan-name">The Team</span>
+                                <span class="plan-price" style="color: white;">R 9,000</span>
+                                <span class="plan-subtitle">Growing SMME (2–10 Staff)</span>
                             </th>
                             <th>
-                                <span class="plan-name">Corporate</span>
-                                <span class="plan-price">R1,710</span>
-                                <span class="plan-subtitle">100 Employees</span>
+                                <span class="plan-name">The Enterprise</span>
+                                <span class="plan-price">Custom</span>
+                                <span class="plan-subtitle">Large Entities / Groups</span>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Max Active Employees</td>
-                            <td>1</td>
-                            <td class="highlight">10</td>
-                            <td>100</td>
+                            <td>Core Modules</td>
+                            <td>Leads, Invoices, Expenses, Clients</td>
+                            <td class="highlight">Everything in Solo PLUS HR, Attendance, Projects</td>
+                            <td>Everything in Team PLUS Assets, API, Webhooks</td>
                         </tr>
                         <tr>
-                            <td>File Storage</td>
-                            <td>100 MB</td>
-                            <td class="highlight">1 GB</td>
-                            <td>10 GB</td>
+                            <td>Target Size</td>
+                            <td>1–3 People</td>
+                            <td class="highlight">4–15 People</td>
+                            <td>16+ People</td>
                         </tr>
                         <tr>
-                            <td>Clients</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
+                            <td>Support SLA</td>
+                            <td>Standard (Email/WA)</td>
+                            <td class="highlight">Priority (Tickets)</td>
+                            <td>Dedicated Architect SLA</td>
                         </tr>
                         <tr>
-                            <td>Invoicing & Estimates</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
+                            <td>Branding Tools</td>
+                            <td>Standard</td>
+                            <td class="highlight">Advanced</td>
+                            <td>Personalized Bio-Links & QR</td>
                         </tr>
                         <tr>
-                            <td>Projects & Tasks</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Attendance & Leaves</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Leads & CRM</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Payment Gateways</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Tickets & Support System</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Events & Notices</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Contracts</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Time Logs</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Product Catalog</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Expenses</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Advanced Reports</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Knowledge Base</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Bank Account Tracking</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Internal Messages</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                        </tr>
-                        <tr>
-                            <td>Order Management</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td class="highlight"><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
+                            <td>Cyber Security</td>
+                            <td>Basic</td>
+                            <td class="highlight">Standard</td>
+                            <td>Corporate-Grade + Audit Logs</td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td><a href="contact.php" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;">Select</a></td>
-                            <td class="highlight"><a href="contact.php" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem;">Get Started</a></td>
-                            <td><a href="contact.php" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;">Select</a></td>
+                            <td><a href="contact.php" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;">Start Small</a></td>
+                            <td class="highlight"><a href="contact.php" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.8rem; background: white; color: var(--primary-color);">Scale Now</a></td>
+                            <td><a href="contact.php" class="btn btn-outline" style="padding: 8px 15px; font-size: 0.8rem;">Contact Sales</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -271,64 +121,76 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Value Proposition / Pricing -->
+    <!-- Add-ons Grid -->
+    <section id="addons" class="bg-gray" style="background-color: var(--bg-card); padding: 100px 0;">
+        <div class="container">
+            <div class="section-header">
+                <small>Expand Your Engine</small>
+                <h2>Premium Add-ons</h2>
+                <p>Customize your "Unified Business OS" with these specialized extensions.</p>
+            </div>
+
+            <div class="features-grid">
+                <?php
+                $addons = [
+                    ['icon' => 'fa-plug', 'name' => 'REST API', 'desc' => 'Connect Jaspa One with mobile apps or third-party systems.'],
+                    ['icon' => 'fa-money-check-alt', 'name' => 'Payroll', 'desc' => 'Manage salaries, components, and professional payslips.'],
+                    ['icon' => 'fa-laptop-code', 'name' => 'Asset Management', 'desc' => 'Track company hardware, software, and lending history.'],
+                    ['icon' => 'fa-video', 'name' => 'Zoom Meeting', 'desc' => 'Create and launch Zoom meetings directly inside the engine.'],
+                    ['icon' => 'fa-user-plus', 'name' => 'Recruit', 'desc' => 'Streamline hiring with job postings and candidate tracking.'],
+                    ['icon' => 'fa-sms', 'name' => 'SMS Notification', 'desc' => 'Integrated gateways like Twilio or Vonage support.'],
+                    ['icon' => 'fa-shield-alt', 'name' => 'Cyber Security', 'desc' => 'Login protection, brute-force blocking, and audit logs.'],
+                    ['icon' => 'fa-qrcode', 'name' => 'QR Code & Bio Links', 'desc' => 'Professional branding with automated QR generation.'],
+                ];
+
+                foreach($addons as $addon): ?>
+                    <div class="feature-card" style="padding: 25px; text-align: left;">
+                        <i class="fas <?php echo $addon['icon']; ?> text-primary" style="font-size: 1.5rem; margin-bottom: 15px;"></i>
+                        <h4 style="font-size: 1.1rem; margin-bottom: 5px;"><?php echo $addon['name']; ?></h4>
+                        <p class="small" style="font-size: 0.85rem; color: var(--text-muted);"><?php echo $addon['desc']; ?></p>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <p class="small italic text-muted">And 15+ more modules available in the Enterprise Tier.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition / Why Choose -->
     <section id="benefits" class="value-prop">
         <div class="container">
             <div class="section-header">
-                <h2>Why Business Owners Choose Jaspa One</h2>
-                <p>Stop juggling multiple tools. Start growing your business.</p>
+                <h2>The Jaspa One Precision</h2>
+                <p>"We replace the frustration of 5 different apps with the precision of 1 unified engine."</p>
             </div>
 
             <div class="features-grid" style="margin-top: 60px;">
                 <!-- Benefit 1 -->
                 <div class="feature-card">
                     <i class="fas fa-rocket feature-icon"></i>
-                    <h3>Run on Auto-Pilot</h3>
-                    <p>Automate repetitive tasks like invoicing, follow-ups, and reporting. Free up your time to focus
-                        on strategic growth.</p>
+                    <h3>Digital Rebirth</h3>
+                    <p>Move your business from chaos to clarity. Automate repetitive tasks and focus on the craft of growth.</p>
                 </div>
 
                 <!-- Benefit 2 -->
                 <div class="feature-card">
                     <i class="fas fa-hand-holding-usd feature-icon"></i>
-                    <h3>Better Cashflow Management</h3>
-                    <p>Annual pricing means no monthly debit orders. Plan your expenses better and keep more cash in
-                        your business.</p>
+                    <h3>Cashflow Sovereignty</h3>
+                    <p>Annual pricing models built for the South African SMME. Know your costs and own your engine.</p>
                 </div>
 
                 <!-- Benefit 3 -->
                 <div class="feature-card">
-                    <i class="fas fa-layer-group feature-icon"></i>
-                    <h3>One Tool, Everything</h3>
-                    <p>Replace 5+ separate tools with one platform. No more switching between apps, losing data, or
-                        paying multiple subscriptions.</p>
-                </div>
-
-                <!-- Benefit 4 -->
-                <div class="feature-card">
-                    <i class="fas fa-clock feature-icon"></i>
-                    <h3>Save 10+ Hours Weekly</h3>
-                    <p>Less time on admin means more time for client meetings, business development, and actually
-                        running your company.</p>
-                </div>
-
-                <!-- Benefit 5 -->
-                <div class="feature-card">
-                    <i class="fas fa-chart-line feature-icon"></i>
-                    <h3>Built for Growth</h3>
-                    <p>Scale from 1 to 100 employees without changing systems. Jaspa One grows with your business.</p>
-                </div>
-
-                <!-- Benefit 6 -->
-                <div class="feature-card">
                     <i class="fas fa-shield-alt feature-icon"></i>
-                    <h3>Data Security & Control</h3>
-                    <p>Your business data in one secure place. Role-based access means you control who sees what.</p>
+                    <h3>Institutional Knowledge</h3>
+                    <p>Build a "Company Wiki" that lives within your OS. Ensure your processes are documented as you scale.</p>
                 </div>
             </div>
 
             <div style="text-align: center; margin-top: 50px;">
-                <a href="contact.php" class="btn btn-primary">Start Free Forever Trial</a>
+                <a href="contact.php" class="btn btn-primary">Start Your Digital Rebirth</a>
             </div>
         </div>
     </section>

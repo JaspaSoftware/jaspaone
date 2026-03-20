@@ -14,32 +14,32 @@ include 'includes/header.php';
             <div class="faq-grid">
                 <div class="faq-item">
                     <h4>What is Jaspa One?</h4>
-                    <p>Jaspa One is an all-in-one Business Management System designed specifically for SMMEs. it combines CRM, HR, Project Management, and Finance into one seamless platform.</p>
+                    <p>Jaspa One is the **Unified Business OS** designed for the South African hustle. It replaces 5+ fragmented apps with one professional-grade engine covering CRM, HR, Projects, and Finance.</p>
                 </div>
 
                 <div class="faq-item">
                     <h4>Can I see a demo?</h4>
-                    <p>Yes! We'd love to show you around. You can start a **Free Forever Trial** instantly, which gives you access to the core features. For a personalized guided tour, please contact us on WhatsApp using the button in the corner.</p>
+                    <p>Yes! You can start your **Digital Rebirth** trial instantly. For a personalized guided tour or architect consultation, please contact us on WhatsApp.</p>
                 </div>
 
                 <div class="faq-item">
                     <h4>How much does it cost?</h4>
-                    <p>We believe in simple pricing. Our **SMME Plan** is just **R855 per year**. No monthly debit orders, no per-user fees, and no hidden surprises. We also offer a Free Entrepreneur plan for very small teams.</p>
+                    <p>Our official 2026 pricing starts at **R 4,680 per year** for the **Solo / Micro Tier**. We believe in transparent, annual pricing with no hidden per-user fees, ensuring your costs stay predictable as you grow.</p>
                 </div>
 
                 <div class="faq-item">
                     <h4>Do you charge per user?</h4>
-                    <p>No! Our pricing is based on active employee limits per plan, but we don't charge you for every single user you add. This makes it perfect for businesses that are scaling.</p>
+                    <p>No! Our tiers are based on business stages (Solo, Team, Enterprise). We don't penalize you for hiring more staff within your tier limits, making it the perfect engine for scale.</p>
                 </div>
 
                 <div class="faq-item">
                     <h4>Is my data secure?</h4>
-                    <p>Absolutely. Your business data is encrypted and hosted on secure infrastructure. We also provide role-based access control, so you decide exactly who sees what in your organization.</p>
+                    <p>Jaspa One provides **Total Digital Sovereignty**. Your data is protected with corporate-grade security, REST API isolation, and detailed audit logs (Enterprise Tier).</p>
                 </div>
 
                 <div class="faq-item">
                     <h4>Can I cancel my subscription?</h4>
-                    <p>Yes, you can cancel your trial or annual subscription at any time. There are no long-term contracts outside of your current billing period.</p>
+                    <p>Yes, you can cancel at any time. There are no long-term trap-in contracts outside of your current billing period.</p>
                 </div>
             </div>
 

@@ -14,20 +14,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | Business Management System - Run Your Business on Auto-Pilot'; ?></title>
-    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Run your SMME on auto-pilot with Jaspa One. Invoicing, CRM, Projects, HR, and more in one platform. Free Forever Trial if you sign up today.'; ?>">
+    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Jaspa One is the Unified Business OS for the South African Hustle. CRM, Invoicing, HR, and more in one premium engine. Start your digital rebirth today.'; ?>">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jaspaone.co.za/">
-    <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | Business Management System'; ?>">
-    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'All-in-one Business Management System for South African SMMEs.'; ?>">
+    <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | The Unified Business OS'; ?>">
+    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Run your entire business with the precision of one unified engine. Built for the South African hustle.'; ?>">
     <meta property="og:image" content="https://jaspaone.co.za/img/web-logo.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jaspaone.co.za/">
-    <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | Business Management System'; ?>">
-    <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'All-in-one Business Management System for South African SMMEs.'; ?>">
+    <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | The Unified Business OS'; ?>">
+    <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Replace the frustration of 5 different apps with the precision of 1 unified engine.'; ?>">
     <meta property="twitter:image" content="https://jaspaone.co.za/img/web-logo.png">
 
     <!-- Schema.org Structured Data (JSON-LD) for AI Visibility -->
@@ -55,15 +55,15 @@
           "operatingSystem": "Web, Android, iOS",
           "offers": {
             "@type": "Offer",
-            "price": "855.00",
+            "price": "4680.00",
             "priceCurrency": "ZAR",
-            "description": "Annual subscription per business"
+            "description": "The Solo / Micro Annual Subscription"
           },
-          "description": "All-in-one business management system including CRM, Invoicing, Project Management, and HR.",
+          "description": "The Unified Business OS replacing 5+ apps with one professional-grade engine.",
           "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "ratingCount": "120"
+            "ratingValue": "4.9",
+            "ratingCount": "150"
           }
         }
       ]
