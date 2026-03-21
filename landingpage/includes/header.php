@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    <!-- End Google Tag Manager -->
+
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-XXXXXXXXXX');
     </script>
     
@@ -18,17 +25,17 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jaspaone.co.za/">
+    <meta property="og:url" content="https://one.jaspa.co.za/">
     <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | The Unified Business OS'; ?>">
     <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Run your entire business with the precision of one unified engine. Built for the South African hustle.'; ?>">
-    <meta property="og:image" content="https://jaspaone.co.za/img/web-logo.png">
+    <meta property="og:image" content="https://one.jaspa.co.za/img/web-logo.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jaspaone.co.za/">
+    <meta property="twitter:url" content="https://one.jaspa.co.za/">
     <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : 'Jaspa One | The Unified Business OS'; ?>">
     <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Replace the frustration of 5 different apps with the precision of 1 unified engine.'; ?>">
-    <meta property="twitter:image" content="https://jaspaone.co.za/img/web-logo.png">
+    <meta property="twitter:image" content="https://one.jaspa.co.za/img/web-logo.png">
 
     <!-- Schema.org Structured Data (JSON-LD) for AI Visibility -->
     <script type="application/ld+json">
@@ -39,7 +46,7 @@
           "@type": "Organization",
           "name": "Jaspa Technologies",
           "url": "https://www.jaspa.tec",
-          "logo": "https://jaspaone.co.za/img/web-logo.png",
+          "logo": "https://one.jaspa.co.za/img/logo_premium.png",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+27-78-343-7563",
@@ -96,14 +103,11 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="index.php#price">PRICE</a></li>
-                    <li><a href="index.php#features">FEATURES</a></li>
-                    <li><a href="index.php#benefits">WHY JASPA ONE</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="pricing.php">PRICING</a></li>
                     <li><a href="partners.php">PARTNERS</a></li>
-                    <li><a href="blog.php">BLOG</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="https://one.jaspaone.app" style="margin-right: 15px; font-weight: 500;">LOGIN</a></li>
-                    <li><a href="contact.php" class="btn btn-primary">Start Free Trial</a></li>
+                    <li><a href="https://one.jaspa.co.za/login" style="margin-right: 15px; font-weight: 500;">LOGIN</a></li>
+                    <li><a href="https://one.jaspa.co.za/signup" class="btn btn-primary" onclick="gtag('event', 'conversion', {'send_to': 'AW-CONVERSION_ID/LABEL'});">Start Trial</a></li>
                 </ul>
             </nav>
         </div>

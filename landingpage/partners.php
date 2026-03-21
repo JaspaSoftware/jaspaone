@@ -41,7 +41,24 @@ include 'includes/header.php';
                         <li style="margin-bottom: 15px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 10px;"></i> Exclusive access to early features.</li>
                     </ul>
                     <div style="margin-top: 30px;">
-                        <a href="contact.php" class="btn btn-primary">Apply to Become a Partner</a>
+                        <a href="https://one.jaspa.co.za/signup" onclick="gtag('event', 'conversion', {'send_to': 'AW-CONVERSION_ID/LABEL'});" class="btn btn-primary">Start Trial</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Partial FAQ for Partners -->
+            <div style="margin-top: 80px;">
+                <div class="section-header">
+                    <h2>Partner FAQ</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>How do I get paid?</h4>
+                        <p>Partners earn recurring commissions on annual renewals. Payments are made directly into your preferred account.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Is training provided?</h4>
+                        <p>Yes. We provide full training and certification for all our partners to ensure you can support your clients effectively.</p>
                     </div>
                 </div>
             </div>

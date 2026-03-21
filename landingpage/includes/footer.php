@@ -19,8 +19,8 @@
                 <div>
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="privacy.php">Privacy Policy</a></li>
+                        <li><a href="terms.php">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
