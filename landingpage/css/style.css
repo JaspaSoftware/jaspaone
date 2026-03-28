@@ -1,23 +1,25 @@
-/* Jaspa One Premium Landing Page Theme */
+/* Jaspa One - Professional Light Theme (Zoho-inspired) */
 :root {
-    --primary-color: #226db4;
-    /* Brand Blue */
-    --primary-dark: #1a548b;
-    --secondary-color: #0f172a;
-    /* Deep Navy/Black */
-    --accent-color: #38bdf8;
-    /* Sky Blue */
-    --text-color: #e2e8f0;
-    --text-muted: #94a3b8;
-    --bg-dark: #020617;
-    /* Very dark blue/black */
-    --bg-card: #1e293b;
+    --primary-color: #0067FF;
+    /* Zoho-inspired Blue */
+    --primary-dark: #0056D2;
+    --secondary-color: #0F172A;
+    /* Deep Navy for contrast */
+    --accent-color: #F44336;
+    /* Zoho-inspired Accent Red/Orange */
+    --text-color: #1E293B;
     /* Slate 800 */
+    --text-muted: #64748B;
+    /* Slate 500 */
+    --bg-light: #F4F7F9;
+    /* Zoho light gray bg */
+    --bg-white: #FFFFFF;
     --font-heading: 'Rubik', sans-serif;
     --font-body: 'Rubik', sans-serif;
     --font-accent: 'Yellowtail', cursive;
-    --transition: all 0.3s ease;
-    --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    --transition: all 0.25s ease-in-out;
+    --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
 }
 
 * {
@@ -28,7 +30,7 @@
 
 body {
     font-family: var(--font-body);
-    background-color: var(--bg-dark);
+    background-color: var(--bg-white);
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
@@ -64,14 +66,15 @@ ul {
 
 /* Header */
 header {
-    background-color: rgba(2, 6, 23, 0.95);
-    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(34, 109, 180, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: var(--shadow-soft);
 }
 
 nav {
@@ -135,12 +138,12 @@ nav {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
-    background: radial-gradient(circle at center, #1e293b 0%, #020617 100%);
+    background: #FFFFFF;
     padding-top: 80px;
-    text-align: center;
+    text-align: left; /* Zoho style is often left-aligned */
 }
 
 .hero-content {
@@ -149,13 +152,11 @@ nav {
 }
 
 .hero h1 {
-    font-size: 4rem;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    background: linear-gradient(to right, #ffffff, #38bdf8);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: var(--secondary-color);
+    font-weight: 800;
 }
 
 .hero p {
@@ -194,13 +195,14 @@ section {
 }
 
 .feature-card {
-    background: var(--bg-card);
+    background: var(--bg-white);
     padding: 40px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    box-shadow: var(--shadow-soft);
 }
 
 .feature-card:hover {

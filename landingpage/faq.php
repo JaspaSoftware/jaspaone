@@ -4,14 +4,15 @@ $pageDescription = "Answers to common questions about Jaspa One features, pricin
 include 'includes/header.php'; 
 ?>
 
-    <section style="padding: 120px 0 60px;">
+    <section style="padding: 120px 0 60px; background: var(--bg-light);">
         <div class="container">
             <div class="section-header">
-                <h1>Frequently Asked Questions</h1>
-                <p>Everything you need to know about Jaspa One and how it helps SMMEs grow.</p>
+                <small style="color: var(--primary-color); font-weight: 600; text-transform: uppercase;">Help Center</small>
+                <h1 style="color: var(--secondary-color); margin-top: 10px;">Frequently Asked Questions</h1>
+                <p style="color: var(--text-muted);">Everything you need to know about Jaspa One and how it help you Professionalsize the Hustle.</p>
             </div>
 
-            <div class="faq-grid">
+            <div class="faq-grid" style="margin-top: 50px;">
                 <div class="faq-item">
                     <h4>What is Jaspa One?</h4>
                     <p>Jaspa One is the **Unified Business OS** designed for the South African hustle. It replaces 5+ fragmented apps with one professional-grade engine covering CRM, HR, Projects, and Finance.</p>

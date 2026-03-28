@@ -4,11 +4,12 @@ $pageDescription = "Join the Jaspa One partner network. Become a reseller or cer
 include 'includes/header.php'; 
 ?>
 
-    <section style="padding: 120px 0 60px;">
+    <section style="padding: 120px 0 60px; background: var(--bg-light);">
         <div class="container">
             <div class="section-header">
-                <h1>Partner With Jaspa One</h1>
-                <p>Help South African SMMEs grow while building your own revenue stream.</p>
+                <small style="color: var(--primary-color); font-weight: 600; text-transform: uppercase;">Partnerships</small>
+                <h1 style="color: var(--secondary-color); margin-top: 10px;">Partner With Jaspa One</h1>
+                <p style="color: var(--text-muted);">Help South African SMMEs grow while building your own recurring revenue stream.</p>
             </div>
 
             <div class="features-grid">
