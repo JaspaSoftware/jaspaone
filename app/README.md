@@ -54,3 +54,5 @@
         <strong>Cropper.js</strong> - <a href="https://github.com/fengyuanchen/cropperjs">https://github.com/fengyuanchen/cropperjs</a>
     </li>
 </ol>
+
+<!-- Deployment Trigger: 2026-03-29T18:05:13+02:00 -->
