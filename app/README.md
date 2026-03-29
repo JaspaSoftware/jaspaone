@@ -1,58 +1,55 @@
-# Readme for worksuite
-### Plugins used in the app
+# Jaspa One - Your Comprehensive Business Solution
 
-<ol>
-    <li>
-        <strong>Bootstrap 4 </strong> - <a href="https://getbootstrap.com/">https://getbootstrap.com/</a>
-    </li>
-    <li>
-        <strong>Moment.js </strong> - <a href="https://momentjs.com/">https://momentjs.com/</a>
-    </li>
-    <li>
-        <strong>Bootstrap Select</strong> - <a href="https://developer.snapappointments.com/bootstrap-select/">https://developer.snapappointments.com/bootstrap-select/</a>
-    </li>
-    <li>
-        <strong>Datepicker </strong> - <a href="https://github.com/qodesmith/datepicker">https://github.com/qodesmith/datepicker</a>
-    </li>
-    <li>
-        <strong>Fontawesome </strong> - <a href="https://fontawesome.com/">https://fontawesome.com/</a>
-    </li>
-    <li>
-        <strong>Bootstrap Icons (used in menu) </strong> - <a href="https://icons.getbootstrap.com/">https://icons.getbootstrap.com/</a>
-    </li>
-    <li>
-        <strong>Dropify (used for file uploads) </strong> - <a href="https://github.com/JeremyFagis/dropify">https://github.com/JeremyFagis/dropify</a>
-    </li>
-    <li>
-        <strong>sweetalert2 (used for alerts and notifications)</strong> - <a href="https://sweetalert2.github.io/">https://sweetalert2.github.io/</a>
-    </li>
-    <li>
-        <strong>Quilljs (used for rich text editor)</strong> - <a href="https://quilljs.com/">https://quilljs.com/</a>
-    </li>
-    <li>
-        <strong>Frappe Charts</strong> - <a href="https://frappe.io/charts">https://frappe.io/charts</a>
-    </li>
-    <li>
-        <strong>Bootstrap MultiDatesPicker</strong> - <a href="https://github.com/uxsolutions/bootstrap-datepicker">https://github.com/uxsolutions/bootstrap-datepicker</a>
-    </li>
-    <li>
-        <strong>Bootstrap Colorpicker</strong> - <a href="https://github.com/itsjavi/bootstrap-colorpicker">https://github.com/itsjavi/bootstrap-colorpicker</a>
-    </li>
-    <li>
-        <strong>jQuery UI (used for sortable items)</strong> - <a href="https://jqueryui.com/">https://jqueryui.com/</a>
-    </li>
-    <li>
-        <strong>Highlight JS (used for highlight html content)</strong> - <a href="https://github.com/highlightjs/highlight.js">highlight.min.js</a>
-    </li>
-    <li>
-        <strong>Chart.js</strong> - <a href="https://www.chartjs.org/">https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js</a>
-    </li>
-    <li>
-        <strong>Image Picker</strong> - <a href="https://rvera.github.io/image-picker/">https://rvera.github.io/image-picker/</a>
-    </li>
-    <li>
-        <strong>Cropper.js</strong> - <a href="https://github.com/fengyuanchen/cropperjs">https://github.com/fengyuanchen/cropperjs</a>
-    </li>
-</ol>
+Jaspa One is your comprehensive business solution designed to streamline and automate tasks, helping you save valuable time to focus on core business decisions. It is an all-in-one platform for HR, CRM, and Project Management.
 
+## 🚀 Key Features
+
+- **Customer & Lead Management**: Efficiently track and manage your business relationships.
+- **Financial Tracking**: Manage client projects, invoices, proposals, and estimates.
+- **Employee Management**: Attendance and leave tracking integrated with payroll and scheduling.
+- **E-Signature Contracts**: Securely handle client contracts with e-signature capabilities.
+- **Advanced Project Management**: 
+    - Progress tracking and milestones.
+    - **Kanban Taskboard** for visual workflow management.
+    - **Gantt Charts** for detailed project scheduling.
+- **Financial Tools**: Easily convert invoices to credit notes.
+- **Product Catalog**: Manage your products and inventory in one place.
+- **Support System**: Integrated ticket management for superior customer service.
+- **Team Collaboration**: Internal chat and real-time notifications via **Slack, Pusher, and One Signal**.
+- **Security & Customization**: 
+    - Customizable theme settings.
+    - Multiple payment gateway integrations.
+    - Granular custom roles and permissions.
+- **Analytics & Reporting**: Comprehensive reporting system for data-driven decisions.
+
+## 🛠️ Specialized Modules
+
+- **Purchase Management**: Manage vendors and purchase orders.
+- **Stock Management**: Track product inventory and levels.
+- **QR Code System**: Generate and manage QR codes for various business needs.
+- **BioLinks**: Create and manage personalized biolinks for social media and marketing.
+- **Affiliate Program**: Set up and manage an affiliate network with referral tracking and commissions.
+- **Language Pack**: Extensive multi-language support.
+
+## 📅 Roadmap & Recent Updates
+
+### Released
+- **Multi-Shift Attendance**: Create and assign multiple attendance shifts per employee.
+- **Automated Shift Roster**: Software-generated optimal work schedules.
+- **Miro Board Integration**: Seamless collaboration on Miro boards within projects.
+- **User Mentions**: Mention team members using `@name` in tasks and projects.
+- **Custom Menu Links**: Add personalized links to your sidebar.
+- **Employee Appreciations**: Assign rewards and recognition to your team.
+- **Mobile Friendly**: Enhanced UI for mobile access and tracking.
+
+### Feature Focus
+- **Reporting Manager Permissions**: Empower managers to oversee their specific team's activities.
+- **Sandwich Leave Policy**: Automated handling of leaves falling between weekends/holidays.
+- **Flexible Shifts**: Accommodate diverse working hours for modern teams.
+- **Lead Follow-up Reminders**: Never miss a lead with automated scheduling.
+
+## 🔒 Client Portal
+The **Client Contact Login Feature** provides a secure, customized portal for your clients to view invoices, project progress, and manage their support tickets directly.
+
+---
 <!-- Deployment Trigger: 2026-03-29T18:05:13+02:00 -->
