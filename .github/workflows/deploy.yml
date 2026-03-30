@@ -22,6 +22,7 @@ jobs:
       - name: Install App Dependencies
         run: |
           cd app
+          cp .env.example .env
           mkdir -p bootstrap/cache
           mkdir -p storage/framework/cache/data
           mkdir -p storage/framework/sessions
