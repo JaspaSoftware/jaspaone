@@ -48,6 +48,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: laravel-app
+          path: .
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
