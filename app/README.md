@@ -52,4 +52,4 @@ Jaspa One is your comprehensive business solution designed to streamline and aut
 The **Client Contact Login Feature** provides a secure, customized portal for your clients to view invoices, project progress, and manage their support tickets directly.
 
 ---
-<!-- Deployment Trigger: 2026-03-30T20:45:00+02:00 -->
+<!-- Deployment Trigger: 2026-03-31T07:57:52+02:00 -->
